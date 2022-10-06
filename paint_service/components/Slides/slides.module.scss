@@ -1,0 +1,19 @@
+.threeImgBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.imgCont {
+    width: 40rem;
+    height: 30rem;
+    position: relative;
+    margin: .5rem;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

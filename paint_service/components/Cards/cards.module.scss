@@ -1,0 +1,21 @@
+@import '../../sass/variables';
+
+.card_home {
+  background: rgb(8, 132, 124);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 132, 124, 1) 0%,
+    rgba(100, 193, 154, 1) 50%,
+    rgba(14, 128, 120, 0.6) 100%
+  );
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 15%;
+  font-family: $font-primary;
+}
